@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synixe</title>
+  <!-- Default stylesheets-->
+  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Template specific stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+  <!-- Main stylesheet and color file-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  <style>
+    .white {
+      color: white;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span
+              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+              class="icon-bar"></span></button>
+          <span class="navbar-brand">
+            <img src="logo.png" width="30" height="30" style="display:inline;margin-top:-5px" />&nbsp;Synixe</span>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#totop">Home</a></li>
+            <li><a class="section-scroll" href="#community">Community</a></li>
+            <li><a class="section-scroll" href="#missions">Missions</a></li>
+            <li><a class="section-scroll" href="#mods">Mods</a></li>
+            <li><a class="section-scroll" href="#youtube">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="home-section home-full-height bg-dark bg-gradient" id="home">
+      <video playsinline autoplay muted loop poster="home.jpg" id="bgvid">
+        <source src="home.webm" type="video/webm">
+        <source src="home.mp4" type="video/mp4">
+      </video>
+      <div class="titan-caption">
+        <div class="caption-content">
+          <img src="logo.png" width="128" height="128" />
+          <div class="font-alt mb-30 titan-title-size-4">Synixe<br />Gaming Community</div>
+          <div class="font-alt mb-40 titan-title-size-2">Arma 3 Casual Realism</div>
+          <a class="btn btn-w btn-round btn-discord" href="https://discord.gg/7uvZZVp" target="_blank"
+            onClick="discordEvent()">Join our Discord</a>
+        </div>
+      </div>
+    </section>
+    <div class="main">
+      <section class="module bg-dark" id="community">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Community</h2>
+              <div class="module-subtitle font-serif">A casual place to have fun</div>
+            </div>
+          </div>
+          <div class="row multi-columns-row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-trophy white"></span></div>
+                <h3 class="features-title font-alt white">Free2Play Tournaments</h3>
+                <p>Every 4 months we have a Free2Play Tournament. The community votes on a game and we have a fun
+                  tournament.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-globe white"></span></div>
+                <h3 class="features-title font-alt white">Global</h3>
+                <p>We have members from 8 different countries. Anyone is welcome to join in if the time works for them.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-chat white"></span></div>
+                <h3 class="features-title font-alt white">Discord</h3>
+                <p>A friendly environment to find people looking to play more than just Arma all the time. We also play
+                  War Thunder, League of Legends, Cards Against Humanity, and more.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module" id="missions">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Our Missions</h2>
+              <div class="module-subtitle font-serif">Weekly Missions</div>
+            </div>
+          </div>
+          <div class="row multi-columns-row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-mic"></span></div>
+                <h3 class="features-title font-alt">Voice Comms</h3>
+                <p>We use TeamSpeak 3 with the latest version of ACRE during all missions.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-clock"></span></div>
+                <h3 class="features-title font-alt">Time</h3>
+                <p>Our missions are at <span id="time"></span>. They usually last between an hour to two hours.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><img src="arma3_curator_eye.png" width="42" height="42" /></div>
+                <h3 class="features-title font-alt">Zeus</h3>
+                <p>All our missions are Zeus missions, allowing a level of complexity and enemy intelligence that can't
+                  be matched with scripts.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="icon-gears"></span></div>
+                <h3 class="features-title font-alt">Realism</h3>
+                <p>We play with realism settings and realistic objectives with tactical strategy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module pt-0 pb-0" id="mods">
+        <div class="row position-relative m-0">
+          <div class="col-xs-12 col-md-6 side-image" data-background="mods.jpg"
+            style="background-image: url(&quot;assets/images/section-14.jpg&quot;);"></div>
+          <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="module-title font-alt align-left">Our Mods</h2>
+                <div class="module-subtitle font-serif align-left">A useful set of mods to enhance gameplay and
+                  immersion.</div>
+                <p>We use the latest version of Advanced Combat Environment 3 (ACE3) and Advanced Combat Radio
+                  Environment 2 (ACRE2) to enhance communication and cooperation during our missions.</p>
+                <p>CUP and Aegis make up the majority of the assets we use during our missions, providing a large set of
+                  high quality assets that fit in with vanilla assets.</p>
+                <p>We maintain an in-house Canadian Armed Forces mod allowing Arctic, Desert and Woodland operations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="quote_bg.jpg">
+        <div class="testimonials-slider pt-140 pb-140">
+          <ul class="slides">
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="module-icon"><span class="icon-quote"></span></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="testimonial-text font-alt">I had never played ARMA before but the Synixe family
+                      has given me the most fun and balanced gaming experience I could have asked for</blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <div class="testimonial-author">
+                      <div class="testimonial-caption font-alt">
+                        <div class="testimonial-title">Flashy Moves</div>
+                        <div class="testimonial-descr">Community Member</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="module-icon"><span class="icon-quote"></span></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="testimonial-text font-alt">A fun and welcoming community</blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <div class="testimonial-author">
+                      <div class="testimonial-caption font-alt">
+                        <div class="testimonial-title">Gabe</div>
+                        <div class="testimonial-descr">Community Memeber</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="module-icon"><span class="icon-quote"></span></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="testimonial-text font-alt">I'm glad I found this group, it's well organized with
+                      a friendly environment and good people.</blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <div class="testimonial-author">
+                      <div class="testimonial-caption font-alt">
+                        <div class="testimonial-title">nameless</div>
+                        <div class="testimonial-descr">Community Moderator</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="module-icon"><span class="icon-quote"></span></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="testimonial-text font-alt">This group has rescinded my belief in God. Instead I
+                      worship the dictatorship, and goddamned is it worth it!</blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <div class="testimonial-author">
+                      <div class="testimonial-caption font-alt">
+                        <div class="testimonial-title">ninjahipo</div>
+                        <div class="testimonial-descr">Community Member</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="module-icon"><span class="icon-quote"></span></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="testimonial-text font-alt">This is a group where good friends have great
+                      fun.<br />Welcome to the party, pal.</blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+                    <div class="testimonial-author">
+                      <div class="testimonial-caption font-alt">
+                        <div class="testimonial-title">Beast</div>
+                        <div class="testimonial-descr">Community Moderator</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="module bg-dark-60" data-background="youtube.jpg"
+        style="background-image: url(&quot;assets/images/section-6.jpg&quot;);" id="youtube">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="video-box">
+                <div class="video-box-icon"><a class="video-pop-up" onclick="videoEvent()"
+                    href="https://www.youtube.com/watch?v=f4Xx9C9Vgyw"><span class="icon-video"></span></a></div>
+                <div class="video-title font-alt">YouTube</div>
+                <div class="video-subtitle font-alt"><a class="white"
+                    href="https://www.youtube.com/channel/UCiBR5odYpO1_hcOyvzvuWhg" target="_blank">Synixe Gaming on
+                    YouTube</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="divider-d">
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="copyright font-alt">&copy; 2019&nbsp;Synixe, All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+  </main>
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.min.js">
+  </script>
+
+  <script>
+    var ny = moment.tz(moment(), "America/New_York");
+    ny.set({
+      hour: 22,
+      minute: 00,
+      second: 00,
+    });
+    var local = ny.tz(moment.tz.guess());
+    console.log(local.format());
+    $("#time").html(local.format("h:mm a z"));
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112911665-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112911665-1');
+
+    function videoEvent() {
+      gtag('event', 'video', {
+        'event_category': 'video1',
+      });
+    }
+
+    function discordEvent() {
+      gtag('event', 'discord', {
+        'event_category': 'discord1',
+        'event_label': window.location.href,
+      });
+    }
+  </script>
+</body>
+
+</html>
